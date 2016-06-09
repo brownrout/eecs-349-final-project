@@ -1,0 +1,628 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+p {
+    line-height: 1.65;
+    text-indent: 50px;
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #1a1a1a;
+    letter-spacing: .1px;
+}
+
+figcaption {
+    display: inline-block;
+    font-size: 1em;
+    text-align: justify;
+    color: #1a1a1a;
+    letter-spacing: .1px;
+}
+
+
+table {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1a1a1a;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f5f5}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #333;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h6 {
+ margin-bottom: 5px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #FAB934;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FAB934;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #FAB934;
+    background-color: #FAB934;
+}
+
+.btn-primary .badge {
+    color: #FAB934;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #FAB934;
+    border-width: 5px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: none;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #FAB934;
+    color: #0F0F0F;
+    background-color: #FAB934;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #FAB934;
+    background-color: #FAB934;
+}
+
+.btn-xl .badge {
+    color: #FAB934;
+    background-color: #fff;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+}
+
+.navbar-default .navbar-brand {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #0F0F0F;
+    border:5px solid black;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #FAB934;
+    background-color: #0F0F0F;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FAB934;
+    background-color: #FAB934;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FAB934;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #0F0F0F;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FAB934;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.club-info {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #0F0F0F;
+    color: #FAB934;
+    width:440px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    background-color: #FAB934;
+    color: #0F0F0F;
+    width:470px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text-2 {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        background-color: #FAB934;
+        color: #0F0F0F;
+        width:870px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    header .intro-text .intro-lead-in-team {
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        background-color: #FAB934;
+        color: #000;
+        width:870px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    header .intro-text-2 .intro-lead-in-2 {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        background-color: #0F0F0F;
+        color: #FAB934;
+        width:600px;
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    header .intro-text-2 .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #FAB934;
+}
+
+::selection {
+    text-shadow: none;
+    background: #FAB934;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #FAB934;
+}
+
+/**
+     Custom CSS
+**/
+
+
+.navbar-default {
+    background-color: #FAB934;
+    color:#0F0F0F;
+    height: 70px;
+}
+
+#analysis {
+    background-color: #FAB934;
+}
+
+#header-custom {
+    padding-top: 10px;
+}
+
+#city-dropdown {
+    color:#fff;
+}
+
+.event-listing {
+    text-align: left;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.event-title:hover {
+    color:#fff;
+}
+
+.event-thumbnail {
+    float:left;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.caret {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #FFF;
+}
+
+.dropdown-menu {
+    top:75%;
+    left: 590px;
+    background-color: #0F0F0F;
+    border-radius: 0px;
+    width: 250px;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+    padding-left: 15;
+    color: #FAB934;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #fff;
+    background-color: #0F0F0F;
+    width:100%;
+}
+
+#summary {
+    background-color: #FAB934;
+}
+
+#intro {
+    background-color: #fff;
+}
+
+.row {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.col1 {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 55px;
+    border-radius: 50%;
+    border:5px solid black;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    /*color: #0F0F0F;*/
+}
+
+.col2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    float: left;
+}
+
+/*Moderator css*/
+
+#conclusion {
+    background-color: #0F0F0F;
+    color: #FAB934;
+}
+
+#white-text {
+    font-size: 1.5em;
+}
+
+#width {
+    max-width:57em;
+    margin:auto;
+    padding:0 1em;
+}
+
+#contact {
+    font-size: 15px;
+}
+
+#contact:hover {
+    color: #fff;
+}
+
+.moderator {
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#moderator-div {
+    background-color: #FAB934;
+    padding: 0px;
+    margin: 0px;
+}
+
+#graph {
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#figure {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
