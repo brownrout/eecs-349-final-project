@@ -583,6 +583,12 @@ body {
     color: #FAB934;
 }
 
+#download {
+    margin-top: 4em;
+    color: #fff;
+    font-size: 1em;
+}
+
 #white-text {
     font-size: 1.5em;
 }
